@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!--
+    Document   : logback.xml.xml
+    Created on : 26 de Setembro de 2010, 11:18
+    Author     : nelsoncs
+    Description: Configuração do mecanismo de log.
+-->
+
+<configuration scan="true">
+
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <!-- encoders are assigned the type
+         ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+    <encoder>
+      <pattern>%date{dd/MM/yyyy HH:mm:ss.SSS} : %-5level : %logger{35} - %msg%n%ex{10}</pattern>
+    </encoder>
+  </appender>
+
+  <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+    <file>/opt/camel/logs/pentaho.log</file>
+    <encoder>
+      <pattern>%date{dd/MM/yyyy HH:mm:ss.SSS} : %-5level : %logger{35} - %msg%n%ex{2}</pattern>
+    </encoder>
+  </appender>
+
+  <logger name="br.com.bs.mongo"  level="debug"/>
+  <logger name="org.apache.camel.processor.DefaultErrorHandler"  level="debug"/>
+
+  <root level="error">
+    <appender-ref ref="STDOUT" />
+    <!--<appender-ref ref="FILE" />-->
+  </root>
+</configuration>
