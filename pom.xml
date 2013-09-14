@@ -18,6 +18,14 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.sun</groupId>
+            <artifactId>dcm4mongo</artifactId>
+            <version>1.4.2</version>
+            <scope>system</scope>
+            <systemPath>/Users/ster/dcm4mongo/out/artifacts/dcm4mongo_jar/dcm4mongo.jar</systemPath>
+        </dependency>
+
         <!-- LOG -->
         <dependency>
             <groupId>org.slf4j</groupId>

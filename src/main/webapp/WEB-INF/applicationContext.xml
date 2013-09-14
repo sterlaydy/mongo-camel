@@ -27,7 +27,7 @@
     <!--Classes de processor-->
     
     <!--Classes de builder-->
-    <bean class="br.com.bs.mongo.builder.PentahoBuilder" id="PentahoBuilder">
+    <bean class="br.com.bs.mongo.builder.MongoBuilder" id="PentahoBuilder">
         <property name="properties" ref="propriedades"/>
     </bean>
     
