@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>br.net.primetech.dcm4mongo</groupId>
+  <artifactId>dcm4mongo</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20130926013733</lastUpdated>
+  </versioning>
+</metadata>
