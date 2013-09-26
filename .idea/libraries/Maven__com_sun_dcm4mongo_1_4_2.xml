@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Maven: com.sun:dcm4mongo:1.4.2">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/dcm4mongo/out/artifacts/dcm4mongo_jar/dcm4mongo.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
