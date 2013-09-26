@@ -3,6 +3,7 @@
  */
 package br.com.bs.mongo.builder;
 
+import br.com.bs.mongo.processor.ExtractDicom;
 import br.com.bs.mongo.processor.MongoProcessor;
 import java.util.Properties;
 import org.apache.camel.LoggingLevel;
@@ -22,32 +23,26 @@ public class MongoBuilder extends SpringRouteBuilder{
     
     @Override
     public void configure() throws Exception {
-        
-        
-        
-        //from("file:/opt/camel/xxx-in")
+
         from("file:/Users/ster/Documents/estudos/tcc/camel/mongo/config/xxx-in")
-                .onException(Exception.class)
-                    .log("deu pau")
-                    .log("e agora?")
-                .end()
-                .convertBodyTo(String.class)
-//                .to("log://br.com.bs.mongo?level=ERROR")
-                .to("seda:mongo-connect");
-                
-        
-        
+            .onException(Exception.class)
+                .log("deu pau")
+            .end()
+
+            .process( new ExtractDicom() )  ;
+
+
+        /*    .to("seda:mongo-connect");
+
         from("seda:mongo-connect")
-                 .log(LoggingLevel.DEBUG, "br.com.bs.mongo", "Testando ${file:onlyname}")
+            .log(LoggingLevel.DEBUG, "br.com.bs.mongo", "Salva no mongo")
 
-                 .process( new MongoProcessor(
-                                properties.getProperty("mongoServer")
-                                , Integer.parseInt(properties.getProperty("mongoServerPort"))
-                                , properties.getProperty("mongoLogin")
-                                , properties.getProperty("mongoPassword") ) )
-
-
-                .to("file:/Users/ster/Documents/estudos/tcc/camel/mongo/config/xxx-out");;
+            .process( new MongoProcessor(
+                        properties.getProperty("mongoServer")
+                        , Integer.parseInt(properties.getProperty("mongoServerPort"))
+                        , properties.getProperty("mongoLogin")
+                        , properties.getProperty("mongoPassword") ) );
+                                                                           */
     }
     
 }

@@ -17,12 +17,14 @@
     </encoder>
   </appender>
 
+<!--
   <appender name="FILE" class="ch.qos.logback.core.FileAppender">
     <file>/opt/camel/logs/pentaho.log</file>
     <encoder>
       <pattern>%date{dd/MM/yyyy HH:mm:ss.SSS} : %-5level : %logger{35} - %msg%n%ex{2}</pattern>
     </encoder>
   </appender>
+-->
 
   <logger name="br.com.bs.mongo"  level="debug"/>
   <logger name="org.apache.camel.processor.DefaultErrorHandler"  level="debug"/>

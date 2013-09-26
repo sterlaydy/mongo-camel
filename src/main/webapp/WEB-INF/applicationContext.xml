@@ -27,13 +27,12 @@
     <!--Classes de processor-->
     
     <!--Classes de builder-->
-    <bean class="br.com.bs.mongo.builder.MongoBuilder" id="PentahoBuilder">
+    <bean class="br.com.bs.mongo.builder.MongoBuilder" id="MongoBuilder">
         <property name="properties" ref="propriedades"/>
     </bean>
-    
-    
+
     <camel:camelContext id="camel">
-        <camel:routeBuilder ref="PentahoBuilder"></camel:routeBuilder>
+        <camel:routeBuilder ref="MongoBuilder"></camel:routeBuilder>
     </camel:camelContext>
    
 </beans>

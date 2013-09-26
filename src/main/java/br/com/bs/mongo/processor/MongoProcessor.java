@@ -3,15 +3,11 @@
  */
 package br.com.bs.mongo.processor;
 
-import com.mongodb.BasicDBObjectBuilder;
-import com.mongodb.DB;
-import com.mongodb.DBObject;
-import com.mongodb.MongoClient;
 
-import java.io.File;
+import com.mongodb.DB;
+import com.mongodb.MongoClient;
 import java.io.InputStream;
 import java.net.UnknownHostException;
-
 import com.mongodb.gridfs.GridFS;
 import org.apache.camel.Exchange;
 import org.apache.camel.Processor;
@@ -31,27 +27,25 @@ public class MongoProcessor implements Processor{
     private final String password;
 
     public MongoProcessor(
-            String mongoServer
-            , int mongoServerPort
-            , String login
-            , String password)
+                            String mongoServer
+                            , int mongoServerPort
+                            , String login
+                            , String password)
     {
         this.login = login;
         this.password = password;
+
         try {
             mongoClient = new MongoClient( mongoServer, mongoServerPort );
         } catch (UnknownHostException ex) {
             log.debug("ex = {}", ex);
         }
+
     }
     
 
     @Override
     public void process(Exchange exchange) throws Exception {
-
-        // seta o nome da collection
-        String collectionName = 
-                exchange.getIn().getHeader("dcm", String.class);
 
         // seta o nome do arquivo
         String fileName = 
@@ -73,20 +67,6 @@ public class MongoProcessor implements Processor{
 
         dcmFile.createFile( f, fileName ).save();
 
-
-        String b      = exchange.getIn().getBody(String.class) ;
-
-        log.debug(f.toString());
-
-        /*
-        DBObject object =
-                BasicDBObjectBuilder
-                .start().add("_id", 0).add("boringField", 0).get();
-
-        db.getCollection(collectionName).save(object);
-        
-                           */
-        
     }
     
 }

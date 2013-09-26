@@ -4,11 +4,18 @@
     <list default="true" id="bb604d93-078c-4642-b303-4b3aa9e69629" name="Default" comment="" />
     <ignored path="pentaho-camel.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/pom.xml" changelist="bb604d93-078c-4642-b303-4b3aa9e69629" time="1378936787952" ignored="false" />
-    <file path="/Dummy.txt" changelist="bb604d93-078c-4642-b303-4b3aa9e69629" time="1378937264514" ignored="false" />
+    <file path="/pom.xml" changelist="bb604d93-078c-4642-b303-4b3aa9e69629" time="1380216660784" ignored="false" />
+    <file path="/Dummy.txt" changelist="bb604d93-078c-4642-b303-4b3aa9e69629" time="1380215521785" ignored="false" />
     <file path="/fragment.java" changelist="bb604d93-078c-4642-b303-4b3aa9e69629" time="1378937264514" ignored="false" />
     <file path="/PentahoBuilder.java" changelist="bb604d93-078c-4642-b303-4b3aa9e69629" time="1378942465499" ignored="false" />
     <file path="/MongoProcessor.java" changelist="bb604d93-078c-4642-b303-4b3aa9e69629" time="1378944737317" ignored="false" />
+    <file path="/logback.xml" changelist="bb604d93-078c-4642-b303-4b3aa9e69629" time="1379283492383" ignored="false" />
+    <file path="/applicationContext.xml" changelist="bb604d93-078c-4642-b303-4b3aa9e69629" time="1379283603473" ignored="false" />
+    <file path="/ExtractDicom.java" changelist="bb604d93-078c-4642-b303-4b3aa9e69629" time="1380077021244" ignored="false" />
+    <file path="/MongoBuilder.java" changelist="bb604d93-078c-4642-b303-4b3aa9e69629" time="1380119831413" ignored="false" />
+    <file path="$USER_HOME$/dcm4mongo/src/main/java/br/net/primetech/dcm4mongo/DcmReader.java" changelist="bb604d93-078c-4642-b303-4b3aa9e69629" time="1380074529878" ignored="false" />
+    <file path="$USER_HOME$/dcm4mongo/pom.xml" changelist="bb604d93-078c-4642-b303-4b3aa9e69629" time="1380164306690" ignored="false" />
+    <file path="$USER_HOME$/.m2/settings.xml" changelist="bb604d93-078c-4642-b303-4b3aa9e69629" time="1380150031804" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,10 +76,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="MongoBuilder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/bs/mongo/builder/MongoBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="18" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
+            <state line="33" column="0" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -81,25 +88,27 @@
       <file leaf-file-name="MongoProcessor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/bs/mongo/processor/MongoProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="0" selection-start="2092" selection-end="2092" vertical-scroll-proportion="0.0">
+            <state line="8" column="27" selection-start="147" selection-end="174" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MongoBuilder.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/bs/mongo/builder/MongoBuilder.java">
+      <file leaf-file-name="ExtractDicom.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/bs/mongo/processor/ExtractDicom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="25" selection-start="516" selection-end="525" vertical-scroll-proportion="0.080789946">
-              <folding />
+            <state line="11" column="69" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="107" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.0">
+            <state line="52" column="33" selection-start="1805" selection-end="1805" vertical-scroll-proportion="0.696">
               <folding />
             </state>
           </provider>
@@ -112,23 +121,32 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/bs/mongo/builder/PentahoBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logback.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/bs/mongo/processor/MongoProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/bs/mongo/builder/MongoBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/bs/mongo/processor/ExtractDicom.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="22" />
-    <option name="width" value="1260" />
-    <option name="height" value="705" />
+    <option name="width" value="1600" />
+    <option name="height" value="900" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -154,6 +172,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -278,23 +298,22 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="MavenSettings" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$USER_HOME$/dcm4mongo/out/artifacts/dcm4mongo_jar/dcm4mongo.jar" />
+    <property name="last_opened_file_path" value="$USER_HOME$/dcm4mongo" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -309,6 +328,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -336,19 +368,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -418,7 +437,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="22" width="1260" height="705" extended-state="0" />
+    <frame x="0" y="0" width="1600" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -426,14 +445,14 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18578553" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24958813" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24918033" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958813" sideWeight="0.67116356" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3198198" sideWeight="0.81421447" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -508,13 +527,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="4" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/bs/mongo/processor/MongoProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="71" selection-start="1839" selection-end="1839" vertical-scroll-proportion="0.0">
@@ -531,49 +543,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="107" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="15" column="107" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="4" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.83455884" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.11.0/camel-core-2.11.0.jar!/org/apache/camel/model/ProcessorDefinition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="420" column="16" selection-start="21625" selection-end="21625" vertical-scroll-proportion="0.17533718" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="4" selection-start="568" selection-end="568" vertical-scroll-proportion="0.48387095">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongo-camel.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="87" selection-start="124" selection-end="126" vertical-scroll-proportion="0.028901733" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nbactions.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="107" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.11.0/camel-core-2.11.0.jar!/org/apache/camel/impl/DefaultConsumer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="18" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="14" column="32" selection-start="566" selection-end="692" vertical-scroll-proportion="0.25287357" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/bs/mongo/processor/MongoProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="0" selection-start="2092" selection-end="2092" vertical-scroll-proportion="0.0">
+        <state line="8" column="27" selection-start="147" selection-end="174" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/bs/mongo/builder/MongoBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="25" selection-start="516" selection-end="525" vertical-scroll-proportion="0.080789946">
+        <state line="33" column="0" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/bs/mongo/processor/ExtractDicom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="69" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="33" selection-start="1805" selection-end="1805" vertical-scroll-proportion="0.696">
           <folding />
         </state>
       </provider>

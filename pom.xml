@@ -8,8 +8,29 @@
     <packaging>war</packaging>
 
     <name>mongo-camel</name>
-    
+
     <repositories>
+        <!--<repository>
+            <id>dcm4mongo-mvn-repo</id>
+            <url>https://github.com/sterlaydy/components.git</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+                     -->
+        <repository>
+            <id>dcm4mongo-mvn-repo</id>
+            <url>https://raw.github.com/sterlaydy/components/mvn-repo/</url>
+            <!-- use snapshot version -->
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+
+
+
     </repositories>
 
     <properties>
@@ -18,14 +39,19 @@
     </properties>
 
     <dependencies>
-        <dependency>
+  <!--      <dependency>
             <groupId>com.sun</groupId>
             <artifactId>dcm4mongo</artifactId>
             <version>1.4.2</version>
             <scope>system</scope>
             <systemPath>/Users/ster/dcm4mongo/out/artifacts/dcm4mongo_jar/dcm4mongo.jar</systemPath>
         </dependency>
-
+  -->
+        <dependency>
+            <groupId>br.net.primetech.dcm4mongo</groupId>
+            <artifactId>dcm4mongo</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <!-- LOG -->
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -133,6 +159,9 @@
         
     </dependencies>
 
+
+
+
     <build>
         <resources>
             <resource>
@@ -192,7 +221,7 @@
                 </executions>
             </plugin>
 
-
+                <!--
             <plugin>
                 <groupId>org.mortbay.jetty</groupId>
                 <artifactId>maven-jetty-plugin</artifactId>
@@ -206,7 +235,7 @@
                     <scanIntervalSeconds>10</scanIntervalSeconds>
                 </configuration>
             </plugin>
-
+                               -->
             <plugin>
                 <groupId>org.mortbay.jetty</groupId>
                 <artifactId>maven-jetty-plugin</artifactId>
@@ -216,7 +245,6 @@
                     <stopKey>foo</stopKey>
                     <stopPort>7777</stopPort>
                     <contextPath>/${project.name}</contextPath>
-                    <tmpDir>work/</tmpDir>
                     <connectors>
                         <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
                             <port>9590</port>
@@ -225,6 +253,8 @@
                     </connectors>
                 </configuration>
             </plugin>
+
+
         </plugins>
     </build>
 
