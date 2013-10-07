@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:camel="http://camel.apache.org/schema/spring"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+       http://camel.apache.org/schema/spring 
+            http://camel.apache.org/schema/spring/camel-spring.xsd
+       http://www.springframework.org/schema/util 
+            http://www.springframework.org/schema/util/spring-util-3.0.xsd
+       http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+    <!--Propriedades que podem ser inseridas nos processors-->
+    <util:properties id="propriedades" location="file:/Users/ster/Documents/estudos/tcc/camel/mongo/config/server-config.properties"/>
+    <bean id="placeholderConfig"
+          class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="properties" ref="propriedades"/>
+        <property name="ignoreUnresolvablePlaceholders" value="true"/>
+        <property name="ignoreResourceNotFound" value="false"/>
+    </bean>
+    
+    <!--ActiveMQ-->
+    <!--<import resource="activemq.xml"></import>-->
+    
+    <!--Classes de processor-->
+    
+    <!--Classes de builder-->
+    <bean class="br.com.bs.mongo.builder.MongoBuilder" id="PentahoBuilder">
+        <property name="properties" ref="propriedades"/>
+    </bean>
+    
+    
+    <camel:camelContext id="camel">
+        <camel:routeBuilder ref="PentahoBuilder"></camel:routeBuilder>
+    </camel:camelContext>
+   
+</beans>

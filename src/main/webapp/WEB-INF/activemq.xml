@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:amq="http://activemq.apache.org/schema/core"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+       http://activemq.apache.org/schema/core 
+            http://activemq.apache.org/schema/core/activemq-core.xsd
+       http://www.springframework.org/schema/util 
+            http://www.springframework.org/schema/util/spring-util-3.0.xsd
+       http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+    <amq:broker>
+        <amq:managementContext>
+            <amq:managementContext createConnector="false"/>
+        </amq:managementContext>
+        
+        <amq:destinationPolicy>
+            <amq:policyMap>
+                <amq:policyEntries>
+                    <amq:policyEntry topic=">" producerFlowControl="true" memoryLimit="1mb">
+                        <amq:pendingSubscriberPolicy>
+                            <amq:vmCursor />
+                        </amq:pendingSubscriberPolicy>
+                    </amq:policyEntry>
+                    <amq:policyEntry queue=">" producerFlowControl="true" memoryLimit="1mb">
+                        <amq:pendingQueuePolicy>
+                            <amq:vmQueueCursor/>
+                        </amq:pendingQueuePolicy>
+                    </amq:policyEntry>
+                </amq:policyEntries>
+            </amq:policyMap>
+        </amq:destinationPolicy>
+        
+        <amq:persistenceAdapter>
+            <amq:kahaDB directory="/opt/activemq/data/" 
+                        journalMaxFileLength="32mb">
+            </amq:kahaDB>
+        </amq:persistenceAdapter>
+        
+        <amq:systemUsage>
+            <amq:systemUsage>
+                <amq:memoryUsage>
+                    <amq:memoryUsage limit="20 mb"/>
+                </amq:memoryUsage>
+                <amq:storeUsage>
+                    <amq:storeUsage limit="1 gb"/>
+                </amq:storeUsage>
+                <amq:tempUsage>
+                    <amq:tempUsage limit="100 mb"/>
+                </amq:tempUsage>
+            </amq:systemUsage>
+        </amq:systemUsage>
+        
+        <amq:transportConnectors>
+            <amq:transportConnector name="openwire" uri="tcp://0.0.0.0:61616"/>
+        </amq:transportConnectors>
+        
+        <amq:shutdownHooks>
+            <bean xmlns="http://www.springframework.org/schema/beans" class="org.apache.activemq.hooks.SpringContextHook" />
+        </amq:shutdownHooks>
+    </amq:broker>
+</beans>
