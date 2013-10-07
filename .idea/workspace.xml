@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="75ea1692-0afb-42be-bdf6-e76a9700b32f" name="Default" comment="" />
     <ignored path="mongo-camel.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -9,6 +10,23 @@
     <file path="/logback.xml" changelist="75ea1692-0afb-42be-bdf6-e76a9700b32f" time="1380981627339" ignored="false" />
     <file path="/MongoProcessor.java" changelist="75ea1692-0afb-42be-bdf6-e76a9700b32f" time="1381108371983" ignored="false" />
     <file path="/Dummy.txt" changelist="75ea1692-0afb-42be-bdf6-e76a9700b32f" time="1381106496396" ignored="false" />
+=======
+    <list default="true" id="bb604d93-078c-4642-b303-4b3aa9e69629" name="Default" comment="" />
+    <ignored path="pentaho-camel.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/pom.xml" changelist="bb604d93-078c-4642-b303-4b3aa9e69629" time="1380216660784" ignored="false" />
+    <file path="/Dummy.txt" changelist="bb604d93-078c-4642-b303-4b3aa9e69629" time="1380215521785" ignored="false" />
+    <file path="/fragment.java" changelist="bb604d93-078c-4642-b303-4b3aa9e69629" time="1378937264514" ignored="false" />
+    <file path="/PentahoBuilder.java" changelist="bb604d93-078c-4642-b303-4b3aa9e69629" time="1378942465499" ignored="false" />
+    <file path="/MongoProcessor.java" changelist="bb604d93-078c-4642-b303-4b3aa9e69629" time="1378944737317" ignored="false" />
+    <file path="/logback.xml" changelist="bb604d93-078c-4642-b303-4b3aa9e69629" time="1379283492383" ignored="false" />
+    <file path="/applicationContext.xml" changelist="bb604d93-078c-4642-b303-4b3aa9e69629" time="1379283603473" ignored="false" />
+    <file path="/ExtractDicom.java" changelist="bb604d93-078c-4642-b303-4b3aa9e69629" time="1380077021244" ignored="false" />
+    <file path="/MongoBuilder.java" changelist="bb604d93-078c-4642-b303-4b3aa9e69629" time="1380119831413" ignored="false" />
+    <file path="$USER_HOME$/dcm4mongo/src/main/java/br/net/primetech/dcm4mongo/DcmReader.java" changelist="bb604d93-078c-4642-b303-4b3aa9e69629" time="1380074529878" ignored="false" />
+    <file path="$USER_HOME$/dcm4mongo/pom.xml" changelist="bb604d93-078c-4642-b303-4b3aa9e69629" time="1380164306690" ignored="false" />
+    <file path="$USER_HOME$/.m2/settings.xml" changelist="bb604d93-078c-4642-b303-4b3aa9e69629" time="1380150031804" ignored="false" />
+>>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +41,10 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+<<<<<<< HEAD
+=======
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+>>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -59,29 +81,56 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+<<<<<<< HEAD
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+=======
+>>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
     <breakpoint_rules />
     <ui_properties />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
+<<<<<<< HEAD
     <favorites_list name="mongo-camel" />
+=======
+    <favorites_list name="pentaho-camel" />
+>>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="MongoBuilder.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/bs/mongo/builder/MongoBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="34" column="18" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0">
+=======
+            <state line="33" column="0" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0">
+>>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="MongoProcessor.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/bs/mongo/processor/MongoProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="127" column="63" selection-start="4113" selection-end="4113" vertical-scroll-proportion="3.1507354">
+=======
+      <file leaf-file-name="MongoProcessor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/bs/mongo/processor/MongoProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="27" selection-start="147" selection-end="174" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExtractDicom.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/bs/mongo/processor/ExtractDicom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="69" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
+>>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,6 +138,18 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+=======
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="33" selection-start="1805" selection-end="1805" vertical-scroll-proportion="0.696">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
     </leaf>
   </component>
   <component name="FindManager">
@@ -96,6 +157,7 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -124,6 +186,34 @@
     <option name="height" value="705" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+=======
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/br/com/bs/mongo/builder/PentahoBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logback.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/bs/mongo/processor/MongoProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/bs/mongo/builder/MongoBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/bs/mongo/processor/ExtractDicom.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1600" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+>>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -149,13 +239,22 @@
       <sortByType />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
       <pane id="Scope" />
+=======
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+>>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="mongo-camel" />
+=======
+              <option name="myItemId" value="pentaho-camel" />
+>>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -165,6 +264,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="mongo-camel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
@@ -176,12 +276,16 @@
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="mongo-camel" />
+=======
+              <option name="myItemId" value="pentaho-camel" />
+>>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mongo-camel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+<<<<<<< HEAD
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -198,6 +302,12 @@
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="mongo-camel" />
+=======
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pentaho-camel" />
+>>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -212,6 +322,7 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+<<<<<<< HEAD
             <PATH_ELEMENT>
               <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -224,6 +335,12 @@
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="mongo-camel" />
+=======
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pentaho-camel" />
+>>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -245,7 +362,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="mongo-camel" />
+=======
+              <option name="myItemId" value="pentaho-camel" />
+>>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -275,7 +396,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="mongo-camel" />
+=======
+              <option name="myItemId" value="pentaho-camel" />
+>>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -309,6 +434,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
+<<<<<<< HEAD
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
@@ -319,6 +445,20 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+=======
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$USER_HOME$/dcm4mongo" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+>>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -416,6 +556,7 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+<<<<<<< HEAD
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="75ea1692-0afb-42be-bdf6-e76a9700b32f" name="Default" comment="" />
@@ -467,6 +608,57 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+=======
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb604d93-078c-4642-b303-4b3aa9e69629" name="Default" comment="" />
+      <created>1378936770162</created>
+      <updated>1378936770162</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1600" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18578553" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24918033" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3198198" sideWeight="0.81421447" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288364" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+>>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -529,21 +721,39 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+=======
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/bs/mongo/processor/MongoProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="71" selection-start="1839" selection-end="1839" vertical-scroll-proportion="0.0">
+>>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/activemq.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/bs/mongo/builder/MongoBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="48" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0">
+>>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="20" selection-start="880" selection-end="880" vertical-scroll-proportion="0.0">
@@ -563,10 +773,31 @@
         <state line="69" column="0" selection-start="2283" selection-end="2283" vertical-scroll-proportion="1.0344827">
           <folding />
         </state>
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="107" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="4" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.83455884" />
+>>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.11.0/camel-core-2.11.0.jar!/org/apache/camel/model/ProcessorDefinition.class">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="420" column="6" selection-start="21615" selection-end="21615" vertical-scroll-proportion="0.0">
           <folding />
         </state>
@@ -575,40 +806,95 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.11.0/camel-core-2.11.0-sources.jar!/org/apache/camel/model/Block.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="17" selection-start="939" selection-end="939" vertical-scroll-proportion="0.2777778">
+=======
+        <state line="420" column="16" selection-start="21625" selection-end="21625" vertical-scroll-proportion="0.17533718" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="4" selection-start="568" selection-end="568" vertical-scroll-proportion="0.48387095">
+>>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.11.0/camel-core-2.11.0-sources.jar!/org/apache/camel/model/ConvertBodyDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="11" selection-start="1853" selection-end="1853" vertical-scroll-proportion="0.33333334">
+=======
+    <entry file="file://$PROJECT_DIR$/mongo-camel.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="87" selection-start="124" selection-end="126" vertical-scroll-proportion="0.028901733" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nbactions.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+>>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.11.0/camel-core-2.11.0-sources.jar!/org/apache/camel/model/ProcessorDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="80" column="139" selection-start="3422" selection-end="3422" vertical-scroll-proportion="0.39379475">
+=======
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.11.0/camel-core-2.11.0.jar!/org/apache/camel/impl/DefaultConsumer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="32" selection-start="566" selection-end="692" vertical-scroll-proportion="0.25287357" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/bs/mongo/processor/MongoProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="27" selection-start="147" selection-end="174" vertical-scroll-proportion="0.0">
+>>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/bs/mongo/builder/MongoBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="34" column="18" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0">
+=======
+        <state line="33" column="0" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0">
+>>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/bs/mongo/processor/MongoProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="127" column="63" selection-start="4113" selection-end="4113" vertical-scroll-proportion="3.1507354">
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/bs/mongo/processor/ExtractDicom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="69" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
+>>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="33" selection-start="1805" selection-end="1805" vertical-scroll-proportion="0.696">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
   </component>
 </project>
 
