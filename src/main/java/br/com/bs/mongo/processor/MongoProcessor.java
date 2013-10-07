@@ -3,7 +3,6 @@
  */
 package br.com.bs.mongo.processor;
 
-<<<<<<< HEAD
 import br.net.primetech.dcm4mongo.DcmReader;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
@@ -25,17 +24,6 @@ import org.slf4j.LoggerFactory;
 import br.net.primetech.dcm4mongo.model.DcmObject;
 import com.google.gson.Gson;
 
-=======
-
-import com.mongodb.DB;
-import com.mongodb.MongoClient;
-import java.io.InputStream;
-import java.net.UnknownHostException;
-import com.mongodb.gridfs.GridFS;
-import org.apache.camel.Exchange;
-import org.apache.camel.Processor;
-import org.slf4j.LoggerFactory;
->>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
 
 /**
  *
@@ -49,7 +37,6 @@ public class MongoProcessor implements Processor{
     private MongoClient mongoClient;
     private final String login;
     private final String password;
-<<<<<<< HEAD
     public MongoProcessor(
             String mongoServer
             , int mongoServerPort
@@ -57,34 +44,17 @@ public class MongoProcessor implements Processor{
             , String password) {
         this.login = login;
         this.password = password;
-=======
-
-    public MongoProcessor(
-                            String mongoServer
-                            , int mongoServerPort
-                            , String login
-                            , String password)
-    {
-        this.login = login;
-        this.password = password;
-
->>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
         try {
             mongoClient = new MongoClient( mongoServer, mongoServerPort );
         } catch (UnknownHostException ex) {
             log.debug("ex = {}", ex);
         }
-<<<<<<< HEAD
-=======
-
->>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
     }
     
 
     @Override
     public void process(Exchange exchange) throws Exception {
 
-<<<<<<< HEAD
         //recupera o nome do arquivo contido na msg
         String fileName = exchange.getIn().getHeader("CamelFileNameOnly", String.class);
 
@@ -121,15 +91,6 @@ public class MongoProcessor implements Processor{
           ***/
 
         //conecta no mongoDB
-=======
-        // seta o nome do arquivo
-        String fileName = 
-                exchange.getIn().getHeader("CamelFileNameOnly", String.class);
-        
-        log.debug("fileName = {}", fileName);
-
-        // connecta no mongo
->>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
         DB db = mongoClient.getDB("dicom_files");
 
         // usa autenticacao caso informada
@@ -137,7 +98,6 @@ public class MongoProcessor implements Processor{
             db.authenticate(this.login, this.password.toCharArray());
         }
 
-<<<<<<< HEAD
         //Instancia o GridFs e dá nome ao bucket onde as imagens serão armazenadas
         GridFS gridFS = new GridFS(db, "dicom_files_bucket");
 
@@ -151,18 +111,10 @@ public class MongoProcessor implements Processor{
         gridFSInputFile.save();
 
         log.debug("Gravou no GridFS arquivo - {}", fileName);
-=======
-        GridFS dcmFile = new GridFS(db, "dicom_files_bucket");
-
-        InputStream f = exchange.getIn().getBody(InputStream.class) ;
-
-        dcmFile.createFile( f, fileName ).save();
->>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
 
     }
     
 }
-<<<<<<< HEAD
 
 /*  Erro ao tentar fazer o parse dos arquivos DCM do OSIRIX
 *
@@ -179,5 +131,3 @@ public class MongoProcessor implements Processor{
 	at org.apache.camel.processor.DelegateAsyncProcessor.processNext(DelegateAsyncProcessor.java:99)
 	at org.apache.camel.processor.DelegateAsyncProcessor.process(DelegateAsyncProcessor.java:90)
 * */
-=======
->>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d

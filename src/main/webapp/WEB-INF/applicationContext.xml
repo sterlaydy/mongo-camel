@@ -27,7 +27,6 @@
     <!--Classes de processor-->
     
     <!--Classes de builder-->
-<<<<<<< HEAD
     <bean class="br.com.bs.mongo.builder.MongoBuilder" id="PentahoBuilder">
         <property name="properties" ref="propriedades"/>
     </bean>
@@ -35,14 +34,6 @@
     
     <camel:camelContext id="camel">
         <camel:routeBuilder ref="PentahoBuilder"></camel:routeBuilder>
-=======
-    <bean class="br.com.bs.mongo.builder.MongoBuilder" id="MongoBuilder">
-        <property name="properties" ref="propriedades"/>
-    </bean>
-
-    <camel:camelContext id="camel">
-        <camel:routeBuilder ref="MongoBuilder"></camel:routeBuilder>
->>>>>>> 12f289b640c74fd871f6db21c06d4aa9b19a1b2d
     </camel:camelContext>
    
 </beans>
