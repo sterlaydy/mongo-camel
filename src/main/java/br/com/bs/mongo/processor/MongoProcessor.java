@@ -68,12 +68,12 @@ public class MongoProcessor implements Processor{
         DcmReader reader = new DcmReader();
         DcmObject dcmObject = reader.parse( dcmFile );
 
-        File dcmJPEG = dcmObject.getFile();
+        byte[] dcmJPEG = dcmObject.getImageByteArray();
 
         Map dcmMetaData  = dcmObject.getElements();
 
         //insere o jpeg nos metadados
-        //dcmMetaData.put("jpeg", IOUtils.toByteArray(   new FileInputStream(dcmJPEG) ) );
+        dcmMetaData.put("jpeg", dcmJPEG );
         //ERRO: DBObject of size 39334641 is over Max BSON size 16777216
 
 
